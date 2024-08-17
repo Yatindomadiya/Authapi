@@ -9,7 +9,7 @@ const permissionSchema = new mongoose.Schema({
         type:Number,
         default:0 // admin get authority to user
     }
-})
+})     
 
 
 module.exports = mongoose.model('Permission', permissionSchema);

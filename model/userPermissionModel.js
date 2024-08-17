@@ -9,7 +9,7 @@ const permissionSchema = new mongoose.Schema({
     permissions: [{
         permissions_name: String,
         permissions_value: [Number],
-    }]
+    }]  
 
 })
 

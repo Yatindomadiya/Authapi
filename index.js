@@ -14,7 +14,7 @@ app.use(express.static('public'))
 
 
 mongoose.connect(mongodb).then(() => {
-    console.log('database waiting for your response...');
+    console.log('database connected');
 })
     .catch((err) => {
         console.log(err);
